@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> search page</title>
+        <style>
+            body{background-color:pink}
+            .class1{color:red}
+        </style>
+    </head>
+    <body >
+        <div class="content">
+            <h1 style="text-align:center"> SEARCH</h1>
+
+            <div class="form">
+                <form action="/weatherapp" method="POST">
+                    <label for="city" class=class1>Enter your city name</label>
+                    <input type="text" name="city" id="city"><br><br>
+                    <label for="units"class=class1>Enter units</label>
+                    <input type="text" name="units" id="units"><br><br>
+                    <label for="appid"class=class1>Enter your appid</label>
+                    <input type="text" name="appid" id="appid"><br><br>
+                    <input type="submit" value="search">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
